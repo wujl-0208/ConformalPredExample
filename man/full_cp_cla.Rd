@@ -2,7 +2,7 @@
 % Please edit documentation in R/full_cp_cla_example_iris.R
 \name{full_cp_cla}
 \alias{full_cp_cla}
-\title{title}
+\title{Examples for predicting the species of iris flower using full conformal prediction method}
 \usage{
 full_cp_cla()
 }
@@ -10,7 +10,9 @@ full_cp_cla()
 a picture
 }
 \description{
-title
+To illustrate the conformal prediction approach, we use the well-known Iris dataset available in R as a case study. This dataset includes measurements of three distinct species of iris flowers, with a total of 150 observations. Each observation includes four measurements, sepal length, sepal width, petal length, and petal width, along with the corresponding species label.
+
+For visualization purpose, we focus on two covariates: Sepal Length and Petal Width. A support vector machine (SVM) classifier is employed to predict the species based on these two covariates. Furthermore, we apply the conformal prediction method described in this section to construct 90% confidence sets for the classification results.
 }
 \examples{
 full_cp_cla()

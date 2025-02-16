@@ -1,4 +1,6 @@
-#' Title
+#' @title Examples for predicting the survival time of lung cancer patients using conformal quantile regression method
+#' @description
+#' To explore the performance of conformal quantile regression in comparison with ordinary quantile regression (QR), we conduct a numerical experiment using the lung dataset from the survival package in R. After removing missing values, the dataset consists of 167 observations with 8 variables. The response variable, time, represents survival time, while the predictors include demographic and clinical factors such as age, sex, performance status (ECOG and Karnofsky scores), calorie intake, and weight loss.
 #'
 #' @return a picture
 #' @export
